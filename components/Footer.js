@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer>
             <div className="container">
-                <p className="legal">bbrazis. Scrimba Travel Journal solo project</p>
+                <p className="legal">Bradley Brazis. Scrimba Travel Journal solo project</p>
                 <div className="footer--nav">
                     <a href="https://www.bbrazis.com" target="_blank">
                         bbrazis.com
