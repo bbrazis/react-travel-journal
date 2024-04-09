@@ -86,8 +86,10 @@ main {
 .card--grid-wrapper {
     display: grid;
     width: 100%;
-    grid-template: 1fr / 1fr));
+    grid-template: 1fr / 1fr;
     grid-auto-rows: 1fr;
+    max-width: 1200px;
+    margin-inline: auto;
 }
 
 .card {
