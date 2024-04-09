@@ -197,16 +197,31 @@ footer {
     display: flex;
     place-content: center;
     padding: 2rem 1rem;
+    background: var(--black);
+    color: white;
 
     .container {
+        width: 100%;
         max-width: 960px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 1rem;
 
         .footer--nav {
             display: flex;
             flex-direction: column;
+            gap: .5rem;
+
+            a {
+                color: inherit;
+                transition: color 200ms;
+            }
+
+            a:hover,
+            a:focus {
+                color: var(--link-highlight);
+            }
         }
     }
 }
