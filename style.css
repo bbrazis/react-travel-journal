@@ -199,6 +199,7 @@ footer {
     padding: 2rem 1rem;
     background: var(--black);
     color: white;
+    font-size: .75rem;
 
     .container {
         width: 100%;
@@ -216,6 +217,7 @@ footer {
             a {
                 color: inherit;
                 transition: color 200ms;
+                text-underline-offset: .25em;
             }
 
             a:hover,
