@@ -193,6 +193,24 @@ main {
     padding-block-end: 2rem;
 }
 
+footer {
+    display: flex;
+    place-content: center;
+    padding: 2rem 1rem;
+
+    .container {
+        max-width: 960px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer--nav {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
 @media (max-width: 600px) {
     .card {
         grid-template: 1fr / 1fr;
