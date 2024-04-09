@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Card from './components/Card'
+import Footer from './components/Footer'
 import data from './data'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
                     {buildCards}
                 </div>
             </main>
+            <Footer />
         </div>
     )
 }
